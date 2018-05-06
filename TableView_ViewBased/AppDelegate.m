@@ -19,10 +19,33 @@
     // Insert code here to initialize your application
 }
 
-
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
 
+- (id)init{
+    self = [super init];
+    if (self) {
+        //テーブル表示データ初期化
+        _tableData = [NSMutableArray array];
+        [_tableData addObject: @{
+                                 @"name" : @"ピカチュウ",
+                                 @"type" : @"でんき"
+                                 }];
+        [_tableData addObject: @{
+                                 @"name" : @"ゼニガメ",
+                                 @"type" : @"みず"
+                                 }];
+        [_tableData addObject: @{
+                                 @"name" : @"ヒトカゲ",
+                                 @"type" : @"みず"
+                                 }];
+        [_tableData addObject: @{
+                                 @"name" : @"フシギダネ",
+                                 @"type" : @"くさ"
+                                 }];
+    }
+    return self;
+}
 
 @end
