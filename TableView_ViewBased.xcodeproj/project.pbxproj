@@ -11,6 +11,7 @@
 		2A1839C6209F3C20006FBFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1839C5209F3C20006FBFC8 /* Assets.xcassets */; };
 		2A1839C9209F3C20006FBFC8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1839C7209F3C20006FBFC8 /* MainMenu.xib */; };
 		2A1839CC209F3C20006FBFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1839CB209F3C20006FBFC8 /* main.m */; };
+		2A1839D5209F3CF7006FBFC8 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1839D4209F3CF7006FBFC8 /* TableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		2A1839CA209F3C20006FBFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1839CB209F3C20006FBFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A1839CD209F3C20006FBFC8 /* TableView_ViewBased.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableView_ViewBased.entitlements; sourceTree = "<group>"; };
+		2A1839D3209F3CF7006FBFC8 /* TableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		2A1839D4209F3CF7006FBFC8 /* TableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 			children = (
 				2A1839C2209F3C20006FBFC8 /* AppDelegate.h */,
 				2A1839C3209F3C20006FBFC8 /* AppDelegate.m */,
+				2A1839D3209F3CF7006FBFC8 /* TableController.h */,
+				2A1839D4209F3CF7006FBFC8 /* TableController.m */,
 				2A1839C5209F3C20006FBFC8 /* Assets.xcassets */,
 				2A1839C7209F3C20006FBFC8 /* MainMenu.xib */,
 				2A1839CA209F3C20006FBFC8 /* Info.plist */,
@@ -135,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1839D5209F3CF7006FBFC8 /* TableController.m in Sources */,
 				2A1839CC209F3C20006FBFC8 /* main.m in Sources */,
 				2A1839C4209F3C20006FBFC8 /* AppDelegate.m in Sources */,
 			);
